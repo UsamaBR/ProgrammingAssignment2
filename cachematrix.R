@@ -30,7 +30,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## This function checks whether the input matrix already has
 ## its inverse cached. If it is, it returns the value of inverse
 ## with a "Getting cached data" message. Otherwise, it calculates
-## the inverse of the input matrix, and returns its value.
+## the inverse of input matrix, and returns its value.
 
 cacheSolve <- function(x, ...) {
   
